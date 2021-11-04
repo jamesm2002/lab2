@@ -132,6 +132,12 @@ function makeBees() {
   }
 }
 
+function addBees() {
+  var bee = new Bee();
+  bee.display();
+  bees.push(bee);
+}
+
 function createBeeImg(wNum) {
   //get dimension and position of board div
   let boardDiv = document.getElementById("board");
